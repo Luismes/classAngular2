@@ -1,0 +1,12 @@
+<h2>
+  Platillos de: {{restaurant.name}}
+</h2>
+
+<ul>
+	<li class="card" *ngFor="let saucer of saucers">
+		<h3>{{saucer.name}}</h3>
+		<p>{{saucer.description}}</p>
+		<p>{{saucer.price}}</p>
+		<a routerLink="{{saucer.id}}/comments">Comentarios</a>
+	</li>
+</ul>

@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, "Helvetica Neue", Helvetica;
+}
+
+
+li{
+	color: green;
+}
+.card{
+	width: 310px;
+	display: inline-block;
+	padding: 20px;
+	box-shadow: 5px 5px 5px 5px #ccc;
+}
+input, textarea{
+	border: solid 1px #ccc;
+	border-radius: 3px;
+	box-shadow: 1px 1px 10px #ccc;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 3px 5px;
+	color: #333;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+input[type=text]{
+	line-height: 24px;
+}
+button{
+	line-height: 24px;
+	background-color: #00425A;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	padding: 5px 25px;
+	border-radius: 3px;
+}
+button:hover, button:focus{
+	background-color: #001F2B;
+}
